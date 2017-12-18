@@ -1,0 +1,9 @@
+c:\users\tisho\documents\visual studio 2017\Projects\ReefAquarium\ReefAquarium.Data\bin\Debug\netstandard2.0\ReefAquarium.Data.deps.json
+c:\users\tisho\documents\visual studio 2017\Projects\ReefAquarium\ReefAquarium.Data\bin\Debug\netstandard2.0\ReefAquarium.Data.dll
+c:\users\tisho\documents\visual studio 2017\Projects\ReefAquarium\ReefAquarium.Data\obj\Debug\netstandard2.0\ReefAquarium.Data.csproj.CoreCompileInputs.cache
+c:\users\tisho\documents\visual studio 2017\Projects\ReefAquarium\ReefAquarium.Data\obj\Debug\netstandard2.0\ReefAquarium.Data.AssemblyInfoInputs.cache
+c:\users\tisho\documents\visual studio 2017\Projects\ReefAquarium\ReefAquarium.Data\obj\Debug\netstandard2.0\ReefAquarium.Data.AssemblyInfo.cs
+c:\users\tisho\documents\visual studio 2017\Projects\ReefAquarium\ReefAquarium.Data\bin\Debug\netstandard2.0\ReefAquarium.Data.pdb
+c:\users\tisho\documents\visual studio 2017\Projects\ReefAquarium\ReefAquarium.Data\obj\Debug\netstandard2.0\ReefAquarium.Data.dll
+c:\users\tisho\documents\visual studio 2017\Projects\ReefAquarium\ReefAquarium.Data\obj\Debug\netstandard2.0\ReefAquarium.Data.pdb
+c:\users\tisho\documents\visual studio 2017\Projects\ReefAquarium\ReefAquarium.Data\obj\Debug\netstandard2.0\ReefAquarium.Data.csprojResolveAssemblyReference.cache
