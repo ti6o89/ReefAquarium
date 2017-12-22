@@ -1,12 +1,11 @@
 ﻿namespace ReefAquarium.Services.Models.Users
 {
+    using AutoMapper;
     using Common.Mapping;
     using Data.Models;
     using Services.Models.Aquariums;
     using System;
     using System.Collections.Generic;
-    using AutoMapper;
-    using System.Linq;
 
     public class UserProfileServiceModel : IMapFrom<User>, IHaveCustomMapping
     {

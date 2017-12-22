@@ -1,6 +1,10 @@
 ﻿@model BreedDetailsServiceModel
 @{
     ViewData["Title"] =$"{Model.Name} Details";
+    @if (User.IsInRole(WebConstants.AdministratorRole))
+    {
+        <a asp-area="Admin" asp-controller="Breeds" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a>
+    }
 }
 <h2 class="text-center">@ViewData["Title"]</h2>
 <div>

@@ -4,7 +4,7 @@
     using Data.Models;
     using System.ComponentModel.DataAnnotations;
 
-    public class AddBreedFormModel
+    public class BreedFormModel
     {
         [Required]
         [MinLength(DataConstants.BreedNameMinLength)]

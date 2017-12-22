@@ -1,0 +1,47 @@
+﻿@model BreedFormModel
+
+<form method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="MinTankSize"></label>
+        <input asp-for="MinTankSize" class="form-control" />
+        <span asp-validation-for="MinTankSize" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ReefCompatible"></label>
+        @Html.RadioButtonFor(m => m.ReefCompatible, true) Yes
+        @Html.RadioButtonFor(m => m.ReefCompatible, false) No
+        <span asp-validation-for="ReefCompatible" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CareLevel"></label>
+        <select asp-for="CareLevel" asp-items="Html.GetEnumSelectList<CareLevel>()" class="form-control"></select>
+        <span asp-validation-for="CareLevel" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Temperament"></label>
+        <select asp-for="Temperament" asp-items="Html.GetEnumSelectList<Temperament>()" class="form-control"></select>
+        <span asp-validation-for="Temperament " class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="MaxSize"></label>
+        <input asp-for="MaxSize" class="form-control" />
+        <span asp-validation-for="MaxSize" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Diet "></label>
+        <input asp-for="Diet " class="form-control" />
+        <span asp-validation-for="Diet " class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ImageUrl"></label>
+        <input asp-for="ImageUrl " class="form-control" />
+        <span asp-validation-for="ImageUrl" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-default">Save Breed</button>
+</form>
