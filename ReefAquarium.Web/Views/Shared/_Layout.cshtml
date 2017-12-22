@@ -6,7 +6,7 @@
     <title>@ViewData["Title"] - ReefAquarium.Web</title>
 
     <environment include="Development">
-        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap-curelan.css" />
         <link rel="stylesheet" href="~/css/site.css" />
     </environment>
     <environment exclude="Development">
@@ -26,13 +26,24 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">ReefAquarium.Web</a>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">Reef Aquarium</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                    <li><a asp-area="" asp-controller="Aquariums" asp-action="All">Aquariums</a></li>
+                    <li><a asp-area="" asp-controller="Breeds" asp-action="All">Fish</a></li>
+
+                    @if (User.IsInRole(WebConstants.AdministratorRole))
+                    {
+                        <li><a asp-area="Admin" asp-controller="Users" asp-action="Index">Users</a></li>
+                        <li><a asp-area="Admin" asp-controller="Breeds" asp-action="Add">Add Breed</a></li>
+                    }
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li><a asp-area="" asp-controller="Aquariums" asp-action="Create">Create Aquarium</a></li>
+                    }
                 </ul>
                 @await Html.PartialAsync("_LoginPartial")
             </div>
@@ -42,7 +53,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; 2017 - ReefAquarium.Web</p>
+            <p>&copy; 2017 - Reef Aquarium</p>
         </footer>
     </div>
 

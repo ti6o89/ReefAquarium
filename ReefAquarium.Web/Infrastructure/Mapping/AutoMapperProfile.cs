@@ -1,7 +1,7 @@
 ﻿namespace ReefAquarium.Web.Infrastructure.Mapping
 {
     using AutoMapper;
-    using Common.Mapping;
+    using ReefAquarium.Common.Mapping;
     using System;
     using System.Linq;
 

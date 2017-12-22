@@ -1,11 +1,11 @@
 ﻿namespace ReefAquarium.Web.Infrastructure.Extensions
 {
     using Data;
+    using Data.Models;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Identity;
     using Microsoft.EntityFrameworkCore;
     using Microsoft.Extensions.DependencyInjection;
-    using Data.Models;
     using System;
     using System.Threading.Tasks;
 

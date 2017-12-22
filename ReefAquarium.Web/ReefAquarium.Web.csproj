@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <UserSecretsId>aspnet-ReefAquarium.Web-C944B8CC-B540-4413-AB0A-91E816C2F72E</UserSecretsId>
+    <UserSecretsId>aspnet-ReefAquarium.Web-6BB57309-21EE-471F-83B5-A67DD2CDE204</UserSecretsId>
   </PropertyGroup>
 
 

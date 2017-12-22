@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="ReefAquariumWeb20171222011112" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^E:\\SoftUni\\C\#\ MVC\ Frameworks\ -\ ASP\.NET\ Core\\ReefAquarium\\ReefAquarium\.Web\\obj\\Release\\netcoreapp2\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

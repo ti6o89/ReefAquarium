@@ -1,0 +1,125 @@
+﻿@model AquariumDetailsServiceModel
+@{
+    ViewData["Title"] = Model.Title;
+}
+<h2 class="text-center">
+    @ViewData["Title"]
+    @if (User.Identity.IsAuthenticated)
+    {
+        if (Model.UserIsOwner)
+        {
+            <a class="btn btn-sm btn-primary" asp-controller="Aquariums" asp-action="Edit" asp-route-id="@Model.Id">Edit</a>
+        }
+    }
+    </h2>
+
+<div>
+    <hr />
+    <br />    
+    <dl class="dl-horizontal">
+        <dd>
+            <img src="@Model.ImageUrl" height="500" width="1000"/>
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Length)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Length) cm
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Width)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Width) cm
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Height)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Height) cm
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Volume)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Volume) L
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Fish)
+        </dt>
+        <dd>
+            <ul>
+                @foreach (var fish in Model.Fish)
+                {
+                    <li>
+                        <a asp-controller="Breeds" asp-action="Details" asp-route-id="@fish.BreedId">@fish.BreedName</a> x @fish.Quantity
+
+                        @if (Model.UserIsOwner)
+                        {
+                                <form asp-controller="Fish" asp-action="SubstractOne" asp-route-fishId="@fish.Id" asp-route-id="@Model.Id">
+                                    <input type="submit" class="btn btn-warning btn-sm" value="-" />
+                                </form>
+                                <form asp-controller="Fish" asp-action="PlusOne" asp-route-fishId="@fish.Id" asp-route-id="@Model.Id">
+                                    <input type="submit" class="btn btn-primary btn-sm" value="+" />
+                                </form>
+                        }
+                        
+                    </li>
+                }
+            </ul>
+        </dd>
+        @if (User.Identity.IsAuthenticated)
+        {
+            if (Model.UserIsOwner)
+            {
+                <dd>
+                    <div>
+                        <a class="btn btn-sm btn-default" asp-controller="Fish" asp-action="Add" asp-route-id="@Model.Id" method="get">Add Fish</a>
+                    </div>
+
+                </dd>
+            }
+        }
+        <dt>
+            @Html.DisplayNameFor(model => model.Owner)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Owner)
+        </dd>
+    </dl>
+</div>
+<h4 >Comments:</h4>
+<hr />
+@if (User.Identity.IsAuthenticated)
+{
+    <div>
+        <form asp-controller="Comments" asp-action="Add" asp-route-id="@Model.Id" method="post">
+            <textarea cols="60" rows="3" name="comment" id="comment"></textarea>
+            <br />
+            <input type="submit" class="btn btn-primary" value="Add Comment" />
+        </form>
+    </div>
+}
+else
+{
+    <span>To comment in this aquarium, please <a asp-controller="Account" asp-action="Login" asp-route-returnUrl="@Context.Request.Path">login</a> into your account.</span>
+}
+<br />
+<div>
+    @foreach (var comment in Model.Comments)
+    {
+        <div class="table-bordered">
+            <p>@comment.Author : @comment.Content</p>
+            <p class="small">@comment.PublishDate.ToShortDateString()</p>
+        </div>
+    }
+</div>
+<div>
+    <a class="btn btn-default btn-sm" asp-action="All">Back to List</a>
+</div>

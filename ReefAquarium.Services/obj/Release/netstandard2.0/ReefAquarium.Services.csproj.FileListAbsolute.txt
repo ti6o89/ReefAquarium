@@ -1,0 +1,13 @@
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Services\bin\Release\netstandard2.0\ReefAquarium.Services.deps.json
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Services\bin\Release\netstandard2.0\ReefAquarium.Services.dll
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Services\bin\Release\netstandard2.0\ReefAquarium.Services.pdb
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Services\bin\Release\netstandard2.0\ReefAquarium.Common.dll
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Services\bin\Release\netstandard2.0\ReefAquarium.Data.dll
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Services\bin\Release\netstandard2.0\ReefAquarium.Common.pdb
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Services\bin\Release\netstandard2.0\ReefAquarium.Data.pdb
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Services\obj\Release\netstandard2.0\ReefAquarium.Services.csprojResolveAssemblyReference.cache
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Services\obj\Release\netstandard2.0\ReefAquarium.Services.csproj.CoreCompileInputs.cache
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Services\obj\Release\netstandard2.0\ReefAquarium.Services.AssemblyInfoInputs.cache
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Services\obj\Release\netstandard2.0\ReefAquarium.Services.AssemblyInfo.cs
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Services\obj\Release\netstandard2.0\ReefAquarium.Services.dll
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Services\obj\Release\netstandard2.0\ReefAquarium.Services.pdb

@@ -2,11 +2,13 @@
 {
     using System.ComponentModel.DataAnnotations;
 
+    using static DataConstants;
+
     public class Fish
     {
         public int Id { get; set; }
 
-        [Range(1, 300)]
+        [Range(MinFishQuantity, MaxFishQuantity)]
         public int Quantity { get; set; }
 
         public int BreedId { get; set; }

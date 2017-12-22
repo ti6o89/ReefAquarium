@@ -1,7 +1,7 @@
-﻿using AutoMapper;
-
-namespace ReefAquarium.Common.Mapping
+﻿namespace ReefAquarium.Common.Mapping
 {
+    using AutoMapper;
+
     public interface IHaveCustomMapping
     {
         void ConfigureMapping(Profile mapper);

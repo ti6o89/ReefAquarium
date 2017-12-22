@@ -6,3 +6,21 @@ c:\users\tisho\documents\visual studio 2017\Projects\ReefAquarium\ReefAquarium.S
 c:\users\tisho\documents\visual studio 2017\Projects\ReefAquarium\ReefAquarium.Services\obj\Debug\netstandard2.0\ReefAquarium.Services.AssemblyInfo.cs
 c:\users\tisho\documents\visual studio 2017\Projects\ReefAquarium\ReefAquarium.Services\obj\Debug\netstandard2.0\ReefAquarium.Services.dll
 c:\users\tisho\documents\visual studio 2017\Projects\ReefAquarium\ReefAquarium.Services\obj\Debug\netstandard2.0\ReefAquarium.Services.pdb
+C:\Users\Tisho\Documents\Visual Studio 2017\Projects\ReefAquarium\ReefAquarium.Services\obj\Debug\netstandard2.0\ReefAquarium.Services.csprojResolveAssemblyReference.cache
+C:\Users\Tisho\Documents\Visual Studio 2017\Projects\ReefAquarium\ReefAquarium.Services\bin\Debug\netstandard2.0\ReefAquarium.Common.dll
+C:\Users\Tisho\Documents\Visual Studio 2017\Projects\ReefAquarium\ReefAquarium.Services\bin\Debug\netstandard2.0\ReefAquarium.Data.dll
+C:\Users\Tisho\Documents\Visual Studio 2017\Projects\ReefAquarium\ReefAquarium.Services\bin\Debug\netstandard2.0\ReefAquarium.Common.pdb
+C:\Users\Tisho\Documents\Visual Studio 2017\Projects\ReefAquarium\ReefAquarium.Services\bin\Debug\netstandard2.0\ReefAquarium.Data.pdb
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Services\bin\Debug\netstandard2.0\ReefAquarium.Services.deps.json
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Services\bin\Debug\netstandard2.0\ReefAquarium.Services.dll
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Services\bin\Debug\netstandard2.0\ReefAquarium.Services.pdb
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Services\bin\Debug\netstandard2.0\ReefAquarium.Common.dll
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Services\bin\Debug\netstandard2.0\ReefAquarium.Data.dll
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Services\bin\Debug\netstandard2.0\ReefAquarium.Common.pdb
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Services\bin\Debug\netstandard2.0\ReefAquarium.Data.pdb
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Services\obj\Debug\netstandard2.0\ReefAquarium.Services.csprojResolveAssemblyReference.cache
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Services\obj\Debug\netstandard2.0\ReefAquarium.Services.csproj.CoreCompileInputs.cache
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Services\obj\Debug\netstandard2.0\ReefAquarium.Services.AssemblyInfoInputs.cache
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Services\obj\Debug\netstandard2.0\ReefAquarium.Services.AssemblyInfo.cs
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Services\obj\Debug\netstandard2.0\ReefAquarium.Services.dll
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Services\obj\Debug\netstandard2.0\ReefAquarium.Services.pdb

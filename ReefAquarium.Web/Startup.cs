@@ -1,6 +1,9 @@
 ﻿namespace ReefAquarium.Web
 {
     using AutoMapper;
+    using Data;
+    using Data.Models;
+    using Infrastructure.Extensions;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.AspNetCore.Identity;
@@ -8,9 +11,6 @@
     using Microsoft.EntityFrameworkCore;
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
-    using ReefAquarium.Data;
-    using ReefAquarium.Data.Models;
-    using ReefAquarium.Web.Infrastructure.Extensions;
 
     public class Startup
     {
@@ -26,7 +26,7 @@
             services.AddDbContext<ReefAquariumDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
-            services.AddIdentity<User, IdentityRole>(options => 
+            services.AddIdentity<User, IdentityRole>(options =>
             {
                 options.Password.RequireDigit = false;
                 options.Password.RequireLowercase = false;
@@ -40,7 +40,7 @@
 
             services.AddDomainServices();
 
-            services.AddMvc(options => 
+            services.AddMvc(options =>
             {
                 options.Filters.Add<AutoValidateAntiforgeryTokenAttribute>();
             });

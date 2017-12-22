@@ -1,0 +1,30 @@
+﻿@model IEnumerable<BreedListingServiceModel>
+@{
+    ViewData["Title"] = "All Fish";
+}
+<h2>@ViewData["Title"]</h2>
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>
+                Picture
+            </th>
+            <th>
+                Name
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var breed in Model)
+        {
+            <tr>
+                <th>
+                    <img width="100" src="@breed.ImageUrl" />
+                </th>
+                <th>
+                    <a asp-controller="Breeds" asp-action="Details" asp-route-id="@breed.Id">@breed.Name</a>
+                </th>
+            </tr>
+        }
+    </tbody>
+</table>

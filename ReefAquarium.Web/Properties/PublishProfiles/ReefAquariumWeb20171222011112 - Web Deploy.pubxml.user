@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAATBT8XY/GM0ecG9BACHAFJAAAAAACAAAAAAAQZgAAAAEAACAAAADTrYXIgtMLI1RSRipHyqI1egexA9X8/8skx8LyCRfLFQAAAAAOgAAAAAIAACAAAAAoZj1SqFX187lBJr+0zvvq/YBox6NZ2hkMNXoluzZqsoAAAACQlzEOzl/FwyI0CInnTmETAg3fkLXWwndWbvXcXIozpto9uDNUKXjhIXmnuVqzihUgenyR+m7fI1GjWjbQhTL4juK6O2DkYO8vZYfXQ9ujI9KrBTNM3uo4DEOU83oglPm+ucUSMqstth2oS1cvxL3JYVwgBjZJ57TogaYm3tgAyUAAAAAzukBeR4HrwZhoCYzFeKGkAk3/sRCeqjOHlo9F0zCRNyN75tYM+EeJSSlv6cM7kILv+IllV2VHu9RVmv6C7iIn</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:reefaquarium.database.windows.net,1433;Initial Catalog=ReefAquarium;Persist Security Info=False;User ID=reefaquariumadmindb;Password=admin_12;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

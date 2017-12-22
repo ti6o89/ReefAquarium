@@ -22,12 +22,10 @@
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder
-                .Entity<Fish>()
-                .HasKey(f => new { f.AquariumId, f.BreedId });
-
-            builder
                 .Entity<Comment>()
-                .HasKey(c => new { c.AquariumId, c.AuthorId });
+                .HasOne(c => c.Author)
+                .WithMany(a => a.Comments)
+                .HasForeignKey(c => c.AuthorId);
 
             builder
                 .Entity<Fish>()
@@ -52,12 +50,6 @@
                 .HasOne(a => a.Owner)
                 .WithMany(o => o.Aquariums)
                 .HasForeignKey(a => a.OwnerId);
-
-            builder
-                .Entity<Comment>()
-                .HasOne(c => c.Author)
-                .WithMany(a => a.Comments)
-                .HasForeignKey(c => c.AuthorId);
 
             base.OnModelCreating(builder);
         }

@@ -1,6 +1,6 @@
 ﻿namespace ReefAquarium.Web.Models.AccountViewModels
 {
-    using Data;
+    using ReefAquarium.Data;
     using System;
     using System.ComponentModel.DataAnnotations;
 

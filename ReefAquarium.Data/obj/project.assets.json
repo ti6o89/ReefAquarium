@@ -3615,11 +3615,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "c:\\users\\tisho\\documents\\visual studio 2017\\Projects\\ReefAquarium\\ReefAquarium.Data\\ReefAquarium.Data.csproj",
+      "projectUniqueName": "E:\\SoftUni\\C# MVC Frameworks - ASP.NET Core\\ReefAquarium\\ReefAquarium.Data\\ReefAquarium.Data.csproj",
       "projectName": "ReefAquarium.Data",
-      "projectPath": "c:\\users\\tisho\\documents\\visual studio 2017\\Projects\\ReefAquarium\\ReefAquarium.Data\\ReefAquarium.Data.csproj",
+      "projectPath": "E:\\SoftUni\\C# MVC Frameworks - ASP.NET Core\\ReefAquarium\\ReefAquarium.Data\\ReefAquarium.Data.csproj",
       "packagesPath": "C:\\Users\\Tisho\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\tisho\\documents\\visual studio 2017\\Projects\\ReefAquarium\\ReefAquarium.Data\\obj\\",
+      "outputPath": "E:\\SoftUni\\C# MVC Frameworks - ASP.NET Core\\ReefAquarium\\ReefAquarium.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

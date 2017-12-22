@@ -1,0 +1,9 @@
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Common\bin\Release\netstandard2.0\ReefAquarium.Common.deps.json
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Common\bin\Release\netstandard2.0\ReefAquarium.Common.dll
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Common\bin\Release\netstandard2.0\ReefAquarium.Common.pdb
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Common\obj\Release\netstandard2.0\ReefAquarium.Common.csprojResolveAssemblyReference.cache
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Common\obj\Release\netstandard2.0\ReefAquarium.Common.csproj.CoreCompileInputs.cache
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Common\obj\Release\netstandard2.0\ReefAquarium.Common.AssemblyInfoInputs.cache
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Common\obj\Release\netstandard2.0\ReefAquarium.Common.AssemblyInfo.cs
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Common\obj\Release\netstandard2.0\ReefAquarium.Common.dll
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Common\obj\Release\netstandard2.0\ReefAquarium.Common.pdb

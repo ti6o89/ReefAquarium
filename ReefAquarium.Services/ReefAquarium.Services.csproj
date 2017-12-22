@@ -4,4 +4,9 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ReefAquarium.Common\ReefAquarium.Common.csproj" />
+    <ProjectReference Include="..\ReefAquarium.Data\ReefAquarium.Data.csproj" />
+  </ItemGroup>
+
 </Project>

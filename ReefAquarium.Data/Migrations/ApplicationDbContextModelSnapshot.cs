@@ -192,18 +192,22 @@ namespace ReefAquarium.Data.Migrations
 
             modelBuilder.Entity("ReefAquarium.Data.Models.Comment", b =>
                 {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
                     b.Property<int>("AquariumId");
 
                     b.Property<string>("AuthorId");
 
                     b.Property<string>("Content")
-                        .IsRequired();
-
-                    b.Property<int>("Id");
+                        .IsRequired()
+                        .HasMaxLength(5000);
 
                     b.Property<DateTime>("PublishDate");
 
-                    b.HasKey("AquariumId", "AuthorId");
+                    b.HasKey("Id");
+
+                    b.HasIndex("AquariumId");
 
                     b.HasIndex("AuthorId");
 
@@ -212,15 +216,18 @@ namespace ReefAquarium.Data.Migrations
 
             modelBuilder.Entity("ReefAquarium.Data.Models.Fish", b =>
                 {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
                     b.Property<int>("AquariumId");
 
                     b.Property<int>("BreedId");
 
-                    b.Property<int>("Id");
-
                     b.Property<int>("Quantity");
 
-                    b.HasKey("AquariumId", "BreedId");
+                    b.HasKey("Id");
+
+                    b.HasIndex("AquariumId");
 
                     b.HasIndex("BreedId");
 
@@ -345,8 +352,7 @@ namespace ReefAquarium.Data.Migrations
 
                     b.HasOne("ReefAquarium.Data.Models.User", "Author")
                         .WithMany("Comments")
-                        .HasForeignKey("AuthorId")
-                        .OnDelete(DeleteBehavior.Cascade);
+                        .HasForeignKey("AuthorId");
                 });
 
             modelBuilder.Entity("ReefAquarium.Data.Models.Fish", b =>

@@ -5096,6 +5096,10 @@
       "ReefAquarium.Services/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "ReefAquarium.Common": "1.0.0",
+          "ReefAquarium.Data": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/ReefAquarium.Services.dll": {}
         },
@@ -13244,11 +13248,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "c:\\users\\tisho\\documents\\visual studio 2017\\Projects\\ReefAquarium\\ReefAquarium.Web\\ReefAquarium.Web.csproj",
+      "projectUniqueName": "E:\\SoftUni\\C# MVC Frameworks - ASP.NET Core\\ReefAquarium\\ReefAquarium.Web\\ReefAquarium.Web.csproj",
       "projectName": "ReefAquarium.Web",
-      "projectPath": "c:\\users\\tisho\\documents\\visual studio 2017\\Projects\\ReefAquarium\\ReefAquarium.Web\\ReefAquarium.Web.csproj",
+      "projectPath": "E:\\SoftUni\\C# MVC Frameworks - ASP.NET Core\\ReefAquarium\\ReefAquarium.Web\\ReefAquarium.Web.csproj",
       "packagesPath": "C:\\Users\\Tisho\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\tisho\\documents\\visual studio 2017\\Projects\\ReefAquarium\\ReefAquarium.Web\\obj\\",
+      "outputPath": "E:\\SoftUni\\C# MVC Frameworks - ASP.NET Core\\ReefAquarium\\ReefAquarium.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13267,14 +13271,14 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "c:\\users\\tisho\\documents\\visual studio 2017\\Projects\\ReefAquarium\\ReefAquarium.Data\\ReefAquarium.Data.csproj": {
-              "projectPath": "c:\\users\\tisho\\documents\\visual studio 2017\\Projects\\ReefAquarium\\ReefAquarium.Data\\ReefAquarium.Data.csproj"
+            "E:\\SoftUni\\C# MVC Frameworks - ASP.NET Core\\ReefAquarium\\ReefAquarium.Data\\ReefAquarium.Data.csproj": {
+              "projectPath": "E:\\SoftUni\\C# MVC Frameworks - ASP.NET Core\\ReefAquarium\\ReefAquarium.Data\\ReefAquarium.Data.csproj"
             },
-            "c:\\users\\tisho\\documents\\visual studio 2017\\Projects\\ReefAquarium\\ReefAquarium.Services\\ReefAquarium.Services.csproj": {
-              "projectPath": "c:\\users\\tisho\\documents\\visual studio 2017\\Projects\\ReefAquarium\\ReefAquarium.Services\\ReefAquarium.Services.csproj"
+            "E:\\SoftUni\\C# MVC Frameworks - ASP.NET Core\\ReefAquarium\\ReefAquarium.Services\\ReefAquarium.Services.csproj": {
+              "projectPath": "E:\\SoftUni\\C# MVC Frameworks - ASP.NET Core\\ReefAquarium\\ReefAquarium.Services\\ReefAquarium.Services.csproj"
             },
-            "c:\\users\\tisho\\documents\\visual studio 2017\\Projects\\ReefAquarium\\ReefAquarium.Common\\ReefAquarium.Common.csproj": {
-              "projectPath": "c:\\users\\tisho\\documents\\visual studio 2017\\Projects\\ReefAquarium\\ReefAquarium.Common\\ReefAquarium.Common.csproj"
+            "E:\\SoftUni\\C# MVC Frameworks - ASP.NET Core\\ReefAquarium\\ReefAquarium.Common\\ReefAquarium.Common.csproj": {
+              "projectPath": "E:\\SoftUni\\C# MVC Frameworks - ASP.NET Core\\ReefAquarium\\ReefAquarium.Common\\ReefAquarium.Common.csproj"
             }
           }
         }

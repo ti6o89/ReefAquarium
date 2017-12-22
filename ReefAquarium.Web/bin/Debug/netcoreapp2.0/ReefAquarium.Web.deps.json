@@ -4117,6 +4117,10 @@
         }
       },
       "ReefAquarium.Services/1.0.0": {
+        "dependencies": {
+          "ReefAquarium.Common": "1.0.0",
+          "ReefAquarium.Data": "1.0.0"
+        },
         "runtime": {
           "ReefAquarium.Services.dll": {}
         },

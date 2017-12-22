@@ -1,0 +1,52 @@
+﻿@model BreedDetailsServiceModel
+@{
+    ViewData["Title"] =$"{Model.Name} Details";
+}
+<h2 class="text-center">@ViewData["Title"]</h2>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dd>
+            <img src="@Model.ImageUrl" height="200" width="300" />
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.MinTankSize)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MinTankSize) L
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ReefCompatible)
+        </dt>
+        <dd>
+            @(Model.ReefCompatible == true ? "Yes" : "No")
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CareLevel)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CareLevel)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Temperament)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Temperament)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.MaxSize)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MaxSize) cm
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Diet)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Diet)
+        </dd>      
+    </dl>
+</div>
+<div>
+    <a class="btn btn-default btn-sm" asp-action="All">Back to List</a>
+</div>

@@ -14,5 +14,11 @@
         public const int AquariumTitleMinLength = 2;
         public const int AquariumTitleMaxLength = 50;
         public const int AquariumDescriptionMaxLength = 5000;
+
+        public const int MinFishQuantity = 1;
+        public const int MaxFishQuantity = 300;
+
+        public const int CommentContentMinLength = 2;
+        public const int CommentContentMaxLength = 5000;
     }
 }
