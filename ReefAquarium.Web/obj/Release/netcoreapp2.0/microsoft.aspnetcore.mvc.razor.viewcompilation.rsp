@@ -3,6 +3,8 @@ E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Web
 --application-name=ReefAquarium.Web
 --content-root=E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Web
 --file=E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Web\Areas\Admin\Views\Breeds\Add.cshtml
+--file=E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Web\Areas\Admin\Views\Breeds\Edit.cshtml
+--file=E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Web\Areas\Admin\Views\Breeds\_BreedForm.cshtml
 --file=E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Web\Areas\Admin\Views\Users\Index.cshtml
 --file=E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Web\Areas\Admin\Views\_ViewImports.cshtml
 --file=E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Web\Areas\Admin\Views\_ViewStart.cshtml

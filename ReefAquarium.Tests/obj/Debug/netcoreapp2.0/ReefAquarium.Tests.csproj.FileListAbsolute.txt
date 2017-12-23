@@ -1,0 +1,11 @@
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Tests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Tests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netstandard15.dll
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Tests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netstandard15.dll
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Tests\bin\Debug\netcoreapp2.0\ReefAquarium.Tests.deps.json
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Tests\bin\Debug\netcoreapp2.0\ReefAquarium.Tests.runtimeconfig.json
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Tests\bin\Debug\netcoreapp2.0\ReefAquarium.Tests.runtimeconfig.dev.json
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Tests\bin\Debug\netcoreapp2.0\ReefAquarium.Tests.dll
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Tests\obj\Debug\netcoreapp2.0\ReefAquarium.Tests.csprojResolveAssemblyReference.cache
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Tests\obj\Debug\netcoreapp2.0\ReefAquarium.Tests.csproj.CoreCompileInputs.cache
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Tests\obj\Debug\netcoreapp2.0\ReefAquarium.Tests.AssemblyInfoInputs.cache
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Tests\obj\Debug\netcoreapp2.0\ReefAquarium.Tests.AssemblyInfo.cs

@@ -2,6 +2,7 @@
 {
     using Areas.Admin.Models.Breeds;
     using Infrastructure.Extensions;
+    using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Identity;
     using Microsoft.AspNetCore.Mvc;
     using ReefAquarium.Data.Models;
@@ -48,6 +49,7 @@
             return RedirectToAction(nameof(AquariumsController.All), "Aquariums", new { area = string.Empty });
         }
 
+        [Authorize]
         public async Task<IActionResult> Edit(int id)
         {
             var breed = await this.breeds.ById(id);
@@ -56,7 +58,13 @@
             {
                 return NotFound();
             }
-            
+
+            var user = await this.userManager.GetUserAsync(User);
+
+            if (!await userManager.IsInRoleAsync(user, "Admin"))
+            {
+                return BadRequest();
+            }
 
             return View(new BreedFormModel
             {
@@ -71,6 +79,7 @@
             });
         }
 
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> Edit(int id, BreedFormModel model)
         {
@@ -78,7 +87,7 @@
             {
                 return View(model);
             }
-
+            
             await this.breeds.EditAsync(
                 id,
                 model.Name,
