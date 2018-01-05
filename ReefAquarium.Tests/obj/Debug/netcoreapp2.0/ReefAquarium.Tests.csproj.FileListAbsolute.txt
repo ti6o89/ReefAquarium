@@ -9,3 +9,14 @@ E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Tests\obj\
 E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Tests\obj\Debug\netcoreapp2.0\ReefAquarium.Tests.csproj.CoreCompileInputs.cache
 E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Tests\obj\Debug\netcoreapp2.0\ReefAquarium.Tests.AssemblyInfoInputs.cache
 E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Tests\obj\Debug\netcoreapp2.0\ReefAquarium.Tests.AssemblyInfo.cs
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Tests\bin\Debug\netcoreapp2.0\ReefAquarium.Tests.pdb
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Tests\bin\Debug\netcoreapp2.0\ReefAquarium.Common.dll
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Tests\bin\Debug\netcoreapp2.0\ReefAquarium.Data.dll
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Tests\bin\Debug\netcoreapp2.0\ReefAquarium.Services.dll
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Tests\bin\Debug\netcoreapp2.0\ReefAquarium.Web.dll
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Tests\bin\Debug\netcoreapp2.0\ReefAquarium.Data.pdb
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Tests\bin\Debug\netcoreapp2.0\ReefAquarium.Services.pdb
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Tests\bin\Debug\netcoreapp2.0\ReefAquarium.Common.pdb
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Tests\bin\Debug\netcoreapp2.0\ReefAquarium.Web.pdb
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Tests\obj\Debug\netcoreapp2.0\ReefAquarium.Tests.dll
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Tests\obj\Debug\netcoreapp2.0\ReefAquarium.Tests.pdb

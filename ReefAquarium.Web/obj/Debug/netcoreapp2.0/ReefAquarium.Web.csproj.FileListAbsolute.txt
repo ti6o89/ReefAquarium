@@ -13,6 +13,6 @@ E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Web\obj\De
 E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Web\obj\Debug\netcoreapp2.0\ReefAquarium.Web.pdb
 E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Web\bin\Debug\netcoreapp2.0\ReefAquarium.Common.dll
 E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Web\bin\Debug\netcoreapp2.0\ReefAquarium.Common.pdb
-E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Web\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
 E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Web\bin\Debug\netcoreapp2.0\ReefAquarium.Services.dll
 E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Web\bin\Debug\netcoreapp2.0\ReefAquarium.Services.pdb
+E:\SoftUni\C# MVC Frameworks - ASP.NET Core\ReefAquarium\ReefAquarium.Web\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs

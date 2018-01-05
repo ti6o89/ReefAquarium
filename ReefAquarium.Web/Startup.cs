@@ -36,6 +36,12 @@
                 .AddEntityFrameworkStores<ReefAquariumDbContext>()
                 .AddDefaultTokenProviders();
 
+            services.AddAuthentication().AddFacebook(facebookOptions =>
+            {
+                facebookOptions.AppId = Configuration["Facebook:AppId"];
+                facebookOptions.AppSecret = Configuration["Facebook:AppSecret"];
+            });
+
             services.AddAutoMapper();
 
             services.AddDomainServices();
